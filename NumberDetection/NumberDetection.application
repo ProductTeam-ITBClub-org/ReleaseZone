@@ -8,7 +8,7 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://raw.githubusercontent.com/ProductTeam-ITBClub-org/ReleaseZone/main/NumberDetection/NumberDetection.application" />
+    <deploymentProvider codebase="https://github.com/ProductTeam-ITBClub-org/ReleaseZone/blob/main/NumberDetection/NumberDetection.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6" profile="Full" supportedRuntime="4.0.30319" />
