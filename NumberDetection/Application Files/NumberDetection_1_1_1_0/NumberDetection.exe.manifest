@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NumberDetection.exe" version="1.1.1.0" publicKeyToken="6cd238296ffcafdb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="galaxy.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NumberDetection" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NumberDetection.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="300032">
+      <assemblyIdentity name="MaterialDesignColors" version="1.2.7.1979" publicKeyToken="DF2A72020BD7962A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d/pQnWa7tgPAOoEJwstdUnpwQC/lepx9LuP77yK5xIY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="7727616">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="3.2.0.1979" publicKeyToken="DF2A72020BD7962A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>feGKj5Rze49jAmfq40yatU2lTC2zNU2SA6lR4Lys7wg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NumberDetection.exe" size="8035296">
+      <assemblyIdentity name="NumberDetection" version="1.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zVt69iwAGvsLqqrlCjwGPCpd9V67aYz8EV76/ogezjY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="galaxy.ico" size="195843">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zl6CH9NPMHM6fd97mm+vBVUcGU2ArvBbvzcH+q/hniQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NumberDetection.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gKxXKIvI1oB2Ujf3NLkY67/jWCAETGNca3j2WtIebak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Sound\hover 2.wav" size="339630">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5+pSZpdXjYsAohIHfDBsQwsICEm8CN0oannCjK83giY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Sound\hover.wav" size="198492">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QO1cPc8M55Cy9szCX7E5h+5U4YPAhZmUIPYWMQJJiLw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Sound\hover_3.wav" size="442598">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WJCLnVzCwH4PvMPZXQjdQ2I9hmhtJ384KtLMKQlnc1M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Sound\megaman.wav" size="248998">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sL4uqWZHwBLn2TOiEh6U01Z9PUMPcvLiqqSVdIw4BAg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-80UMU1UQ\ADMIN" issuerKeyHash="d20fc5601efe0791686367b5811c2ec31d2741c2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3L+ZeWdEg4j571W7qnGd4E5EOP0UF9T/WY9mwPtDI9U=</DigestValue></Reference></SignedInfo><SignatureValue>D8mnOWGEForYN/wAf/rL13/nfXGj3FdJ+tRPsmrErl6igO/8UtJzsJCdDGSuf/PRqRcQjZRrqyg3qJ22SZVkay4Db0t1WTYk4i0FVboQlKFGX5/xjDskVG4XeSLPHqAQCDVRVjij4gozMUtsIaH5KCn/WHtyII+IxqHK5hfnT7U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u8hlRlr896DExBcIbmoW2axc+vuxpWiTDq1fAOkPwnixtRfe6tzCB1xVnIgAZma81Og7ELZ/T93kaWDMwlhJT60bu5kCYbtUzHsE+iYM3AKkMQyjpK3ck/X7wm3PkCuzp8phWMPsZhSoMyAM9w7ga6TUCfEJyOKNu09FCo3waXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d52343fbc0668f59ffd41714fd38444ee09d71aabb55eff9888344677999bfdc" Description="" Url=""><as:assemblyIdentity name="NumberDetection.exe" version="1.1.1.0" publicKeyToken="6cd238296ffcafdb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-80UMU1UQ\ADMIN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5kWTs3tOX232p/9rJ9Uj3/ZDwlwH8m/JsZWZoR6q74Q=</DigestValue></Reference></SignedInfo><SignatureValue>a4+twL1qBj6eY4RgRCIHxsUKDiQElFHncdq/0hqDR4LZimUmz3H6GWRMSDwshoiFPIpbyHwTQkXjpZHcKvp/rVswW/zIKHOaOvF9GUSf1tZGqyGG7Khy5wUUGCjH/zM87shAFinVtBNvslBNE76VAWWXpm2EuYvR/r5o4EJQUP4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u8hlRlr896DExBcIbmoW2axc+vuxpWiTDq1fAOkPwnixtRfe6tzCB1xVnIgAZma81Og7ELZ/T93kaWDMwlhJT60bu5kCYbtUzHsE+iYM3AKkMQyjpK3ck/X7wm3PkCuzp8phWMPsZhSoMyAM9w7ga6TUCfEJyOKNu09FCo3waXE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQKcPX6RSRwplCzg2FukSmVzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA4ADAAVQBNAFUAMQBVAFEAXABBAEQATQBJAE4wHhcNMjEwMjA3MDYzMDE5WhcNMjIwMjA3MTIzMDE5WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQA4ADAAVQBNAFUAMQBVAFEAXABBAEQATQBJAE4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALvIZUZa/PegxMQXCG5qFtmsXPr7saVokw6tXwDpD8J4sbUX3urcwgdcVZyIAGZmvNToOxC2f0/d5GlgzMJYSU+tG7uZAmG7VMx7BPomDNwCpDEMo6St3JP1+8Jtz5Ars6fKYVjD7GYUqDMgDPcO4Guk1AnxCcjijbtPRQqN8GlxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARpyudVqLYps/9W/I2XOsiAnRfFpvzxN6TNbZ+DCQgrO4zGhnGCQR1ThdsUeFZPJm15GdV99lTx4Dpb+tUmlssiT23OCbPNRBIAqncSyDknO2DMBHJS0d9y/OQ8CDmUgTA+uY4TYzaC16NPXGixQk5MfRmcwXBWB2uFguvGLDELI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
